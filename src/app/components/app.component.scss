@@ -1,3 +1,13 @@
-.black-background {
-  background: black;
+.main-root {
+  display: flex;
+  flex-direction: column;
+}
+
+
+.footer {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  /* Set the fixed height of the footer here */
+  height: 60px;
 }
